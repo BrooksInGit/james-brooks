@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Brooks — Analytics Engineer</title>
+  <meta name="description" content="Analytics Engineer with 10+ years across automotive, media, and healthcare. I model data, build semantic layers in dbt, and ship BI solutions that teams actually use." />
+  <meta name="theme-color" content="#09090b" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">JB</a>
+      <ul class="nav-links" id="nav-links-list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn-nav" href="#contact">Get in touch</a>
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links-list">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          Available for new projects
+        </div>
+        <h1 class="hero-name">James<br>Brooks</h1>
+        <p class="hero-role">Analytics Engineer</p>
+        <p class="hero-bio">I model data, build semantic layers, and close the gap between raw sources and reliable decisions — across automotive, media, and healthcare, with a decade of domain expertise and AI/ML in the mix.</p>
+        <div class="hero-cta">
+          <a class="btn-primary" href="#work">View my work</a>
+          <a class="btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/BrooksInGit" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/james-brooks-bi-engineer/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:jab09c@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="t-dot t-red"></span>
+            <span class="t-dot t-yellow"></span>
+            <span class="t-dot t-green"></span>
+            <span class="t-title">bash — ~/projects/churn-propensity</span>
+          </div>
+          <div class="terminal-body" id="terminalBody"></div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-val">10+<span class="stat-unit">yr</span></span>
+            <span class="stat-label">experience</span>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-val">4</span>
+            <span class="stat-label">industries</span>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-val">46%</span>
+            <span class="stat-label">best A/B lift</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== STACK ===== -->
+  <section id="stack" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-row reveal">
+          <span class="stack-cat">Modeling</span>
+          <div class="stack-pills">
+            <span class="pill pill-hi">SQL</span>
+            <span class="pill pill-hi">dbt</span>
+            <span class="pill pill-hi">DAX</span>
+            <span class="pill">Python</span>
+          </div>
+        </div>
+        <div class="stack-row reveal">
+          <span class="stack-cat">Warehouses</span>
+          <div class="stack-pills">
+            <span class="pill pill-hi">Amazon Redshift</span>
+            <span class="pill pill-hi">Google BigQuery</span>
+            <span class="pill">Teradata</span>
+            <span class="pill">Oracle</span>
+            <span class="pill">MongoDB</span>
+            <span class="pill">Hive</span>
+          </div>
+        </div>
+        <div class="stack-row reveal">
+          <span class="stack-cat">BI Delivery</span>
+          <div class="stack-pills">
+            <span class="pill pill-hi">Power BI</span>
+            <span class="pill pill-hi">Tableau</span>
+            <span class="pill">Tableau Prep</span>
+            <span class="pill">Sigma</span>
+            <span class="pill">QlikSense</span>
+          </div>
+        </div>
+        <div class="stack-row reveal">
+          <span class="stack-cat">Analytics &amp; AI</span>
+          <div class="stack-pills">
+            <span class="pill pill-hi">A/B Testing</span>
+            <span class="pill">Amplitude</span>
+            <span class="pill">Adobe Analytics</span>
+            <span class="pill">Machine Learning</span>
+            <span class="pill">NLP</span>
+            <span class="pill">GenAI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section id="work" class="section section-alt">
+    <div class="container">
+      <div class="section-head work-head">
+        <div>
+          <h2 class="section-title">Selected projects</h2>
+        </div>
+        <div class="filter-group" role="group" aria-label="Filter projects by category">
+          <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="ml" aria-pressed="false">ML</button>
+          <button class="filter" data-filter="engineering" aria-pressed="false">NLP</button>
+          <button class="filter" data-filter="analytics" aria-pressed="false">Analytics</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <h3 class="project-title">EasyVisa — Visa Certification Predictor</h3>
+            <span class="project-tag tag-ml">ML</span>
+          </div>
+          <p class="project-desc">Ensemble classifier trained on 775K+ OFLC employer applications to predict US work visa certification outcomes. Tuned Random Forest achieved F1=0.82 with 87% recall — wage-to-prevailing-rate ratio surfaced as the dominant approval signal.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">scikit-learn</span><span class="chip">Random Forest</span><span class="chip">XGBoost</span><span class="chip">GBM</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/EasyVisa_Full_Code_Notebook_James_Brooks.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <h3 class="project-title">SuperKart — Retail Sales Forecasting</h3>
+            <span class="project-tag tag-ml">ML</span>
+          </div>
+          <p class="project-desc">Predicted quarterly revenue for a multi-city supermarket chain using tree-based ensemble regressors. Tuned XGBoost delivered R²=0.90 and MAPE=6.45%, enabling reliable inventory planning and data-driven procurement decisions at scale.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">XGBoost</span><span class="chip">scikit-learn</span><span class="chip">Pandas</span><span class="chip">Seaborn</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/JamesBrooks_Full_Code_SuperKart_Model_Deployment_Notebook_2.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <h3 class="project-title">AllLife Bank — Loan Propensity Model</h3>
+            <span class="project-tag tag-ml">ML</span>
+          </div>
+          <p class="project-desc">Classified which bank customers are likely to purchase personal loans, optimizing for recall to catch every potential buyer. Pre-pruned decision tree hit AUC=0.97 with perfect recall — income and monthly credit spend were the strongest predictors.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">scikit-learn</span><span class="chip">Decision Tree</span><span class="chip">Pandas</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/James_Brooks_AIML_ML_Project_full_code_notebook.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="engineering">
+          <div class="project-header">
+            <h3 class="project-title">Clinical Decision Support — Medical RAG</h3>
+            <span class="project-tag tag-eng">NLP</span>
+          </div>
+          <p class="project-desc">RAG pipeline over the Merck Medical Manuals to assist clinicians with diagnostics, drug lookups, treatment protocols, and critical care queries. LangChain + ChromaDB retrieval grounds a local Llama LLM in vetted medical sources, reducing hallucination risk in high-stakes scenarios.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">LangChain</span><span class="chip">ChromaDB</span><span class="chip">Llama</span><span class="chip">HuggingFace</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/James_Brooks_Full_Code_NLP_RAG_Project_Notebook.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="ml">
+          <div class="project-header">
+            <h3 class="project-title">HelmNet — Safety Helmet Detector</h3>
+            <span class="project-tag tag-ml">Deep Learning</span>
+          </div>
+          <p class="project-desc">Transfer learning pipeline (VGG-16 + FFNN) to detect helmet compliance from construction site camera images. Trained on 631 images across varied lighting and angles with data augmentation — achieved 100% test accuracy and a perfect confusion matrix.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">TensorFlow</span><span class="chip">VGG-16</span><span class="chip">Keras</span><span class="chip">OpenCV</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/James_Brooks_HelmNet_Full_Code.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="analytics">
+          <div class="project-header">
+            <h3 class="project-title">FoodHub — Order Data Analysis</h3>
+            <span class="project-tag tag-ana">Analytics</span>
+          </div>
+          <p class="project-desc">Exploratory analysis of a food aggregator's order dataset to surface demand patterns by cuisine type, delivery timing, and customer ratings. Identified a 5.87-minute weekday delivery lag and proposed targeted promotions to close the gap and drive retention.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/BrooksInGit/AI-ML-Coursework/blob/main/James_Brooks_Learner_Notebook_Full_Code.ipynb" target="_blank" rel="noopener" class="proj-link">Notebook <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Career</h2>
+      </div>
+      <div class="exp-list">
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <span class="exp-date">Apr 2024 — now</span>
+          </div>
+          <div class="exp-right">
+            <div class="exp-header">
+              <h3 class="exp-role">Senior Business Intelligence Engineer</h3>
+              <span class="exp-sep">·</span>
+              <span class="exp-company">Ford Motor Company — San Diego, CA</span>
+            </div>
+            <p class="exp-desc">Owning the full analytics lifecycle — data modeling, semantic layer design, and stakeholder enablement across multiple business functions. Led Qlik Sense → Power BI migration for Ford Pro Charging, redesigning the underlying data model to give ops teams real-time diagnostic metrics. Designed an AI-powered CX model with NLP-based survey classification to surface recurring issues from unstructured data. Currently building a predictive sales model layering customer propensity scores into a self-serve reporting layer for Solution Managers.</p>
+            <div class="exp-tags">
+              <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">NLP</span><span class="chip">Python</span><span class="chip">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <span class="exp-date">May 2022 — Mar 2024</span>
+          </div>
+          <div class="exp-right">
+            <div class="exp-header">
+              <h3 class="exp-role">Senior Data Analyst / Tableau Developer</h3>
+              <span class="exp-sep">·</span>
+              <span class="exp-company">Warner Bros. Discovery (MotorTrend Group) — San Diego, CA</span>
+            </div>
+            <p class="exp-desc">Established the analytics foundation for MotorTrend's new FAST business vertical from zero — defined KPIs, modeled and ingested data into Amazon Redshift, and built the reporting layer on top. Led the org's first A/B testing program using Amplitude, producing a 46% increase in ad impressions served. Cut reporting turnaround by 30% by automating daily delivery workflows and eliminating manual extraction.</p>
+            <div class="exp-tags">
+              <span class="chip">Tableau</span><span class="chip">Amplitude</span><span class="chip">Amazon Redshift</span><span class="chip">A/B Testing</span><span class="chip">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <span class="exp-date">Dec 2019 — May 2022</span>
+          </div>
+          <div class="exp-right">
+            <div class="exp-header">
+              <h3 class="exp-role">Senior Data Analyst</h3>
+              <span class="exp-sep">·</span>
+              <span class="exp-company">Kaiser Permanente (KP OnCall) — San Diego, CA</span>
+            </div>
+            <p class="exp-desc">Modeled and consolidated complex data streams from Genesys, Clarity, and KPATHS into unified reporting views — eliminating data silos and building a single source of truth for healthcare contact center operations. Partnered directly with business stakeholders to translate operational requirements into analytically rigorous, production-grade reporting.</p>
+            <div class="exp-tags">
+              <span class="chip">Tableau</span><span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Genesys</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <span class="exp-date">Apr 2015 — Mar 2019</span>
+          </div>
+          <div class="exp-right">
+            <div class="exp-header">
+              <h3 class="exp-role">Business Intelligence Analyst</h3>
+              <span class="exp-sep">·</span>
+              <span class="exp-company">General Motors — Austin, TX</span>
+            </div>
+            <p class="exp-desc">Subject matter expert for CX data — engineered the data models and reporting platform underpinning customer contact operations across 10+ countries. Built composite datasets supporting a data monetization initiative and wrote custom SQL to surface mobile app usage patterns, directly informing product roadmap decisions.</p>
+            <div class="exp-tags">
+              <span class="chip">Tableau</span><span class="chip">Cognos</span><span class="chip">SQL</span><span class="chip">Teradata</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <span class="exp-date">Education</span>
+          </div>
+          <div class="exp-right">
+            <div class="exp-header">
+              <h3 class="exp-role">Post Graduate Program — AI/ML: Business Applications</h3>
+              <span class="exp-sep">·</span>
+              <span class="exp-company">University of Texas at Austin</span>
+            </div>
+            <p class="exp-desc">Python, Machine Learning, NLP, Neural Networks. Also holds a BS in Management Information Systems from Florida State University, a GCP Cloud Digital Leader certification, and a Tableau Desktop 10 Qualified Associate certification.</p>
+            <div class="exp-tags">
+              <span class="chip">Python</span><span class="chip">Machine Learning</span><span class="chip">NLP</span><span class="chip">GCP</span><span class="chip">dbt</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <h2 class="section-title">Let's work together</h2>
+        <p class="contact-bio">Looking for analytics engineering roles — data modeling, dbt/SQL transformation layers, semantic layers, and BI delivery. Open to a conversation if you're building something that needs clean, reliable data.</p>
+        <a class="email-link" href="mailto:jab09c@gmail.com">jab09c@gmail.com</a>
+        <div class="contact-actions">
+          <a href="https://github.com/BrooksInGit" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/james-brooks-bi-engineer/" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="#" class="social-btn" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-copy">© 2026 James Brooks</span>
+      <a href="#hero" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
